@@ -1,5 +1,4 @@
 import { ChakraProvider } from "@chakra-ui/react";
-
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
@@ -7,5 +6,4 @@ function MyApp({ Component, pageProps }) {
     </ChakraProvider>
   );
 }
-
 export default MyApp;
